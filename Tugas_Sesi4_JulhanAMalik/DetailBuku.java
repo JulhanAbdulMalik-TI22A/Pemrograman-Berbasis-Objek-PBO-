@@ -18,7 +18,7 @@ public class DetailBuku {
         int harga_buku = 100000;
         double diskon_buku = discount(harga_buku, 0.4);
         
-        PembuatBuku bukuPub = new PembuatBuku(nama_buku, rilis_buku, "Julhan", "JuDul Production", harga_buku);       
+        PembuatBuku bukuPub = new PembuatBuku(nama_buku, rilis_buku, "Julhan", "JuDul", harga_buku);       
         bukuPub.InfoBuku();
         
         System.out.println("Harga Diskon  : " + diskon_buku);
