@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author julhan
+ * @author julhann
  */
 public class Main {
     public static void main(String[] args) {
